@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bartspace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="flex-container">
+            <div id="left-container">
+                <div id="banner">
+                    <h1><img src="./images/Bartspace-logo.png" alt="Image of Bart Simpson" height="24px" width="24px">Bartspace.com</h1>
+                </div>
+            </div>
+            <div id="right-container">
+                <div id="intro">
+                    <p>Welcome to <strong>bartspace</strong>,
+                    where you can create a computer profile, so people can get to know the real YOU.</p>
+                    <br>
+                    <p>But BE WARNED! The webmaster (that's me!) reserves the right to edit, alter
+                        , or completely fabricate your personal profile as he sees fit, man!</p>
+                </div>
+                <div id="create-account-section">
+                    <form action="#" method="post"  id="create-account">
+                        <div class="flex-row ">
+                            <label for="first-name">First Name: </label>
+                            <label for="last-name">Last Name: </label>
+                        </div>
+                        <div class="flex-row">
+                            <input type="text" id="first-name" name="first-name" value="John...">
+                            <input type="text" id="last-name" name="last-name" value="Smith...">
+                        </div>
+                        <div class="flex-row">
+                            <label for="email">Email: </label>
+                            <label for="phone-number">Phone Number: </label>
+                        </div>
+                        <div class="flex-row">
+                            <input type="email" id="email" name="email" value="John.Smith@gmail.com...">
+                            <input type="number" id="phone-number" name="phone-number" value="(area-code)111-1111...">
+                        </div>
+                        <div class="flex-row">
+                            <label for="password">Password: </label>
+                            <label for="password">Confirm Password: </label>
+                        </div>
+                        <div class="flex-row">
+                            <input type="password" id="password" name="password" value="Winter2023!...">
+                            <input type="password" id="confirm-password" name="confirm-password" value="Winter2023!...">
+                        </div>
+                    </form>
+                </div>
+                <div id="submit-section">
+                    <button type="submit" id="create-account-submit" form="create-account">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p> 
+                </div>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
