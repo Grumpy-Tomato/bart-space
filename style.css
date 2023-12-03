@@ -75,8 +75,16 @@ main {
     align-items: flex-end;
 }
 
-#create-account input {
+#create-account input, 
+#create-account input:focus-visible,
+#create-account input:focus-within {
     border-radius: 10px;
+    min-height: 30px;
+    border: none;
+}
+
+#create-account input:focus-visible {
+    outline: darkblue solid 
 }
 
 #create-account {
